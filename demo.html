@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Table</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        table {
+            border-collapse: collapse;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        td {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 24px;
+            font-weight: bold;
+            border: 1px solid #ccc;
+        }
+        .cell-1 { background-color: #FF6347; }
+        .cell-2 { background-color: #4682B4; }
+        .cell-3 { background-color: #3CB371; }
+        .cell-4 { background-color: #FFD700; }
+        .cell-5 { background-color: #8A2BE2; }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td class="cell-1">1</td>
+        <td class="cell-2">2</td>
+        <td class="cell-3">3</td>
+    </tr>
+    <tr>
+        <td class="cell-4">4</td>
+        <td class="cell-5">5</td>
+        <td class="cell-1">1</td>
+    </tr>
+    <tr>
+        <td class="cell-2">2</td>
+        <td class="cell-3">3</td>
+        <td class="cell-4">4</td>
+    </tr>
+</table>
+
+</body>
+</html>
